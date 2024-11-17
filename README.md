@@ -68,6 +68,11 @@ In order to create a terminal client to play the Hangman game I create the file:
     ruby hangman_client.rb
     ```
 3. **Enjoy the game!**:
+
+![ER Model](hangman-client.png)
+
+![ER Model](hangman-client2.png)
+
 ## CHALLENGE 3
 
 Modify the above API to add a number puzzle game whose objective is to arrange numbers within an NxN square using the following moves:
