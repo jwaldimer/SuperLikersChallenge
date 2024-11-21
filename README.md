@@ -59,15 +59,19 @@ In order to create a terminal client to play the Hangman game I create the file:
 
 ### Running the hangman client.
 
-1. **Run Rackup**:
+1. **Run MongoDB service**:
+
+    Ensure MongoDB service is running.
+
+2. **Run Rackup**:
     ```bash
     rackup
     ```
-2. **In the terminal, run hangman_client.rb**:
+3. **In the terminal, run hangman_client.rb**:
     ```bash
     ruby bin/hangman_client.rb
     ```
-3. **Enjoy the game!**:
+4. **Enjoy the game!**:
 
 ![ER Model](hangman-client.png)
 
