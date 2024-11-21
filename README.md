@@ -65,7 +65,7 @@ In order to create a terminal client to play the Hangman game I create the file:
     ```
 2. **In the terminal, run hangman_client.rb**:
     ```bash
-    ruby hangman_client.rb
+    ruby bin/hangman_client.rb
     ```
 3. **Enjoy the game!**:
 

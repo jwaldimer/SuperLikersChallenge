@@ -44,9 +44,9 @@ def start_game
   loop do
     print 'Enter a letter: '
     letter = gets.chomp
-    next if letter.empty?
+    next if letter.strip.empty?
 
-    response = try_letter(game_id, letter)
+    response = try_letter(game_id, letter.strip.chr)
     print_response(response)
 
     next if response[':state'] == 'playing'
