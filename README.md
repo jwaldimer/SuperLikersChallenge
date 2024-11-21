@@ -57,7 +57,7 @@ In order to create a terminal client to play the Hangman game I create the file:
 
 `bin/hangman_client.rb`
 
-There you can find the code for call the Haangman game endpoints and play the game.
+There you can find the code for call the Hangman game endpoints and play the game.
 
 ### Running the hangman client.
 
